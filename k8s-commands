@@ -17,7 +17,14 @@
 
     kubectl describe pod mongodb-deployment-xxxxxx -n mongo-database
     kubectl describe service mongodb-service -n mongo-database
+    kubectl describe service mongo-express--service -n mongo-database
     kubectl logs mongo-express-xxxxxx -n mongo-database
+    
+### kubectl exec commands
+    
+    kubectl exec -it mongodb-deployment-xxxxxx -n mongo-database bash
+    kubectl exec -it mongo-express-xxxxxx -n mongo-database bash 
+    
 
 ### give a URL to external service in minikube
 
