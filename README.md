@@ -24,11 +24,15 @@ Web-based MongoDB admin interface written with Node.js, Express and Bootstrap3
 * Custom CA and CA validation disabling
 * Supports replica sets
 
+## External Service URL 
+----------
+<img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/mongo-express-home-page.png" title="External Service URL from Minikube">
+
 ## Screenshots
 -----------
 Home Page | Database View | Collection View | Editing A Document
 --- | --- | --- | ---
-<img src="" title="Home Page showing databases"> | <img src="" title="Viewing collections in a database" /> | <img src="" title="Viewing documents in a collection" /> | <img src="" title="Editing a document" />
+<img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/mongo-express-home-page.png" title="Home Page showing databases"> | <img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/mongodb-collections.png" title="Viewing collections in a database" /> | <img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/mongodb-collection-view.png" title="Viewing documents in a collection" /> | <img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/Editing%20the%20documents.png" title="Editing a document" />
 
 ## Environment Variables
 -----------
