@@ -26,7 +26,7 @@ Web-based MongoDB admin interface written with Node.js, Express and Bootstrap3
 
 ## External Service URL 
 ----------
-<img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/mongo-express-home-page.png" title="External Service URL from Minikube">
+<img src="https://github.com/rohnux/Deployment-of-Mongodb-and-Mongo-Express-UI-on-Kubernetes/blob/master/Screenshots/external-service-url.png" title="External Service URL from Minikube">
 
 ## Screenshots
 -----------
