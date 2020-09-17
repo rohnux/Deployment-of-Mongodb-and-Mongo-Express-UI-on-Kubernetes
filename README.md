@@ -26,6 +26,9 @@ Web-based MongoDB admin interface written with Node.js, Express and Bootstrap3
 
 ## Screenshots
 -----------
+Home Page | Database View | Collection View | Editing A Document
+--- | --- | --- | ---
+<img src="http://i.imgur.com/XiYhblA.png" title="Home Page showing databases"> | <img src="http://i.imgur.com/XWcIgY1.png" title="Viewing collections & buckets in a database" /> | <img src="https://imgur.com/UmGSr3x.png" title="Viewing documents in a collection" /> | <img src="https://imgur.com/lL38abn.png" title="Editing a document" />
 
 ## Environment Variables
 -----------
