@@ -1,0 +1,24 @@
+### kubectl apply commands in order
+
+    kubectl apply -f mongo-secret.yaml -n mongo-database
+    kubectl apply -f mongodb.yaml  -n mongo-database
+    kubectl apply -f mongo-configmap.yaml -n mongo-database
+    kubectl apply -f mongo-express.yaml  -n mongo-database
+
+### kubectl get commands
+
+    kubectl get pod -n mongo-database
+    kubectl get pod -o wide -n mongo-database
+    kubectl get service -n mongo-database
+    kubectl get secret -n mongo-database
+    kubectl get all -n mongo-database
+
+### kubectl debugging commands
+
+    kubectl describe pod mongodb-deployment-xxxxxx -n mongo-database
+    kubectl describe service mongodb-service -n mongo-database
+    kubectl logs mongo-express-xxxxxx -n mongo-database
+
+### give a URL to external service in minikube
+
+    minikube service mongo-express-service -n mongo-database
